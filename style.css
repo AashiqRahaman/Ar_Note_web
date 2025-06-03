@@ -97,12 +97,12 @@ body {
 
 .note:hover {
     transform: scale(1.02);
-    box-shadow: 0 8px 16px rgb(161, 227, 240);
+    box-shadow: 10px 10px 10px rgb(20, 1, 18);
 }
 
 .note-header {
     background: var(--primary-color);
-    color: white;
+    color: rgb(3, 38, 240);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -136,10 +136,6 @@ body {
 
 textarea:focus {
     outline: none;
-}
-
-.save{
-    background-image: url(C:\Users\aashiq\Desktop\Git\MY_Git_Hub_AashiqRahaman\Ar_Note_web\Resources\save.png);
 }
 
 @keyframes gradient {

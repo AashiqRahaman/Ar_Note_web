@@ -23,7 +23,7 @@ const addNote = (content = "", title = "") => {
   note.className = "note";
   note.innerHTML = `
         <div class="note-header">
-          <span>Note</span>
+          <span><b><i>Note</i></b></span>
           <div>
             <i class="save" title="Save"><img src="Resources/save.png" alt="img"></i> 
             <i class="Delete" title="Delete"><img src="Resources/trash.png" alt="img"></i> 
