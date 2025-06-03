@@ -16,25 +16,26 @@ body {
     background: var(--accent-color);
     min-height: 100vh;
 }
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  color: rgb(245, 242, 242);
-  
-}
-.nav{
-  text-decoration: none;
-  color: rgb(12, 34, 235);
-padding: 5px;
-   border-radius: 30%;
-   background-color: #55bdee;
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: rgb(245, 242, 242);
+
 }
 
-.nav:hover{
-  
+.nav {
+    --glow-color: rgb(199, 203, 238);
+    text-decoration: none;
+    color: rgb(12, 34, 235);
+    padding: 5px;
+    border-radius: 30%;
+    border: 0.25em solid var(--glow-color);
 }
+
+.nav:hover {}
 
 
 header {
@@ -50,6 +51,7 @@ header {
     display: flex;
     justify-content: center;
     margin: 1rem;
+    
 }
 
 #addBtn {
@@ -64,7 +66,7 @@ header {
 
 #addBtn:hover {
     background: #34495e;
-      transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
@@ -95,6 +97,7 @@ body {
 
 .note:hover {
     transform: scale(1.02);
+    box-shadow: 0 8px 16px rgb(161, 227, 240);
 }
 
 .note-header {
@@ -135,7 +138,9 @@ textarea:focus {
     outline: none;
 }
 
-
+.save{
+    background-image: url(C:\Users\aashiq\Desktop\Git\MY_Git_Hub_AashiqRahaman\Ar_Note_web\Resources\save.png);
+}
 
 @keyframes gradient {
     0% {
@@ -149,3 +154,4 @@ textarea:focus {
     100% {
         background-position: 0% 50%;
     }
+}
