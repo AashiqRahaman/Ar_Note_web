@@ -14,6 +14,8 @@ A modern and minimalistic web-based note-taking application. Built using **HTML,
 - ✅ Hover animations and intuitive icons
 
 ---
+## Take a Ride...
+Visit the [website](https://aashiqrahaman.github.io/Ar_Note_web/) for take a look.
 
 ## 🖼️ Preview
 
@@ -21,6 +23,7 @@ A modern and minimalistic web-based note-taking application. Built using **HTML,
 <!-- *(optional )* -->
 
 ---
+
 
 <!-- ## 📂 File Structure -->
 

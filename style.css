@@ -44,7 +44,9 @@ header {
     text-align: center;
     padding: 1.5rem 1rem;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(-45deg, #2006b4, #2bc20d, #062502, #21a087);
+    background: linear-gradient(-45deg, #1247aa, #6c7707, #0a138f, #1d5a04);
+          background-size: 110% 120%; 
+    animation: gradient 10s ease infinite;
 }
 
 .btn-container {
@@ -80,7 +82,8 @@ header {
 }
 
 body {
-    background: linear-gradient(-45deg, #ebb19f, #c795f0, #a1e798, #202524);
+    background: linear-gradient(45deg, #ebb19f, #c795f0, #7ac471, #058067);
+      background-size: 200% 200%; 
     animation: gradient 10s ease infinite;
 }
 
