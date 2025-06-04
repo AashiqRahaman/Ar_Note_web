@@ -17,25 +17,7 @@ body {
     min-height: 100vh;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    color: rgb(245, 242, 242);
 
-}
-
-.nav {
-    --glow-color: rgb(199, 203, 238);
-    text-decoration: none;
-    color: rgb(12, 34, 235);
-    padding: 5px;
-    border-radius: 30%;
-    border: 0.25em solid var(--glow-color);
-}
-
-.nav:hover {}
 
 
 header {
@@ -153,4 +135,44 @@ textarea:focus {
     100% {
         background-position: 0% 50%;
     }
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    color: rgb(245, 242, 242);
+
+}
+
+.nav {
+    --glow-color: rgb(72, 78, 76);
+    text-decoration: none;
+    color: rgb(34, 185, 135);
+    padding: 5px;
+    border-radius: 15px;
+
+    height: 40px;
+    width: 7em;
+    border: 0.2em solid var(--glow-color);
+}
+
+.nav:hover {
+    background: linear-gradient(45deg, #9bf2f5, #d0b6e6, #b6dab1, #90e7d6);
+    background-size: 200% 200%; 
+    animation: gradient 10s ease infinite;
+    box-shadow: 10px 10px 10px rgb(178, 221, 223);
+    border-color: #ee81ca;
+    color: #0026ff;
+
+}
+
+.head{
+    color: #00ff37;
+    align-items: center;
+}
+.head:hover{
+    color: #ffe600;
+    text-shadow: 10px 10px 10px rgb(213, 132, 238);
 }
