@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,46 +11,87 @@
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #7edacc;
+            background-color: #404947;
             color: #000000;
         }
+
         .container {
             max-width: 800px;
             margin: 50px auto;
-            background: #aedfe7;
+            background: #333b48;
+            border: 5px solid #333b48;
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
         }
-        .container:hover{
+
+        .container:hover {
+            border: 5px solid #3498db;
             box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+            background: #87a4eb;
 
+            animation: gradient 2s infinite alternate;
 
         }
+
+
+
+        @keyframes gradient {
+            0% {
+                border-color: #e8a6a6;
+            }
+
+            20% {
+                border-color: #f1e6a0;
+            }
+
+            40% {
+                border-color: #e42a93;
+            }
+
+            60% {
+                border-color: #6c99c0;
+            }
+
+            80% {
+                border-color: #d190e9;
+            }
+
+            100% {
+                border-color: #cd71a0;
+            }
+        }
+
         h1 {
             color: #333;
             text-align: center;
             margin-bottom: 30px;
         }
+
         p {
             margin-bottom: 10px;
         }
+
         a {
             color: #007bff;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         .contact-info div {
             margin-bottom: 15px;
         }
+
         .contact-info strong {
             display: inline-block;
             width: 100px;
         }
     </style>
 </head>
+
 <body oncontextmenu="return false">
     <div class="container">
         <h1>Contact Me</h1>
@@ -66,14 +108,16 @@
                 <strong>Address:</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </div>
             <div>
-                <strong>Social:</strong> 
-                <a href="https://www.linkedin.com/in/aashiq-rahaman-319550257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> |
+                <strong>Social:</strong>
+                <a href="https://www.linkedin.com/in/aashiq-rahaman-319550257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                    target="_blank">LinkedIn</a> |
                 <a href="https://twitter.com/@aashiq95394379" target="_blank">Twitter</a> |
                 <a href="https://github.com/AashiqRahaman" target="_blank">GitHub</a>
             </div>
         </div>
-        
+
         <p>I will try to respond you back within 24-48 hours.</p>
     </div>
 </body>
+
 </html>
